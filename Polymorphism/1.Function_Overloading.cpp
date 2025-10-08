@@ -32,3 +32,36 @@ int main()
     a.FunctionA(6.888);
 
 }
+
+
+/*
+#include<iostream>
+using namespace std;
+
+class Math
+{
+    public:
+    int  area(int l, int b)
+    {
+        return l*b;
+    }
+
+    int area (int r)
+    {
+        return 3.14 * r*r;
+    }
+};
+
+
+int main()
+{
+
+    Math obj;
+    cout<<obj.area(2,3)<<endl;
+    
+    cout<<obj.area(5);
+
+    return 0;
+}
+
+    */

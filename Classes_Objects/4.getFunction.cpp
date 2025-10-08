@@ -48,3 +48,64 @@ int main()
 
 
 }
+
+
+
+
+/* 
+class student
+{
+    
+    string name;
+    int age;
+    bool gender;
+
+    public:
+    void setthem (string s, int a, bool g)
+    {
+        name = s;
+        age = a;
+        gender = g;
+    }
+
+    void getthem()
+    {
+        cout<<"Name "<<name<<" ";
+        cout<<"Age "<<age<<" ";
+        cout<<"Gender "<<gender<<" ";
+        cout<<endl;
+    }
+};
+
+int main()
+{
+   int n;
+   cin>>n;
+   student arr[n];
+ 
+
+    for(int i=0; i<n; i++)
+    {
+       string s;
+       cin>>s;
+       int a;
+       cin>>a;
+       bool g;
+       cin>>g;
+
+       arr[i].setthem(s,a,g);
+    }
+
+    cout<<"Student details are "<<endl;
+    
+    
+    for(int i=0; i<n; i++)
+    {
+       arr[i].getthem();
+    }
+
+
+    return 0;
+}
+
+*/

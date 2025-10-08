@@ -17,6 +17,12 @@ int main()
     a.age  = 21;
     a.gender = 1;
 
+    /* 
+    cin>>a.name;
+    cin>>a.age;
+    cin>>a.gender;
+    */
+
 
     cout<<a.name<<" ";
     cout<<a.age<<" ";
